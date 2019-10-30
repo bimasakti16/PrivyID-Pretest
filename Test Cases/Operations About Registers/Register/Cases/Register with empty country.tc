@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register with empty country</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d08b3288-5e08-4f36-8b35-c577960a472b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://pretest-qa.privydev.id'</initValue>
+      <name>base_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>json response save as string text</description>
+      <initValue>''</initValue>
+      <name>json_string</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>json_response_code</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('phone') : '', ('password') : '', ('country') : '', ('latlong') : '', ('device_token') : '', ('device_type') : '', ('response_code') : 0]</initValue>
+      <name>input_text</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

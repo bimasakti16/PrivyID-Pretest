@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify expected value equals with input text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01910894-97ec-4155-99a9-69818ae8660f</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>f86d4e4a-2c9a-42c7-b67d-6335a7df28ef</id>
+      <masked>false</masked>
+      <name>expected_response_code</name>
+   </variable>
+</TestCaseEntity>

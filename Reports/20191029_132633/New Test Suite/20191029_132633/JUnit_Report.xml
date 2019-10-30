@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="7.072" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="7.072" timestamp="2019-10-29 13:26:35" hostname="acer - LAPTOP-84C3RO11" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\acer\\Katalon Studio\\PrivyID API pretest\\Reports\\20191029_132633\\New Test Suite\\20191029_132633"/>
+         <property name="logFiles" value="C:\\Users\\acer\\Katalon Studio\\PrivyID API pretest\\Reports\\20191029_132633\\New Test Suite\\20191029_132633\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\acer\\Katalon Studio\\PrivyID API pretest\\Reports\\20191029_132633\\New Test Suite\\20191029_132633/videos\\test_1.avi"/>
+         <property name="hostName" value="acer - LAPTOP-84C3RO11"/>
+         <property name="hostAddress" value="192.168.4.176"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+      </properties>
+      <testcase name="Test Cases/Operations About Registers/Register/Cases/Register with new valid data" time="6.718" classname="Test Cases/Operations About Registers/Register/Cases/Register with new valid data" status="PASSED">
+         <system-out><![CDATA[2019-10-29 13:26:35 - [TEST_CASE][PASSED] - Test Cases/Operations About Registers/Register/Cases/Register with new valid data: Test Cases/Operations About Registers/Register/Cases/Register with new valid data
+
+2019-10-29 13:26:36 - [TEST_STEP][PASSED] - map = input_text: null
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - map.put("phone", "6223167132422"): null
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - map.put("password", "bimabimabima"): null
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - map.put("country", "indonesia"): null
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - map.put("latlong", "(-7.753315, 110.360947)"): null
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - map.put("device_token", "redmi note 5"): null
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - map.put("device_type", 1): null
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - map.put("response_code", 201): null
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Operations About Registers/Register/Pages/Send registration data"), ["phone":map.get("phone"), "password":map.get("password"), "country":map.get("country"), "device_token":map.get("device_token"), ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Operations About Registers/Register/Pages/Send registration data' successfully
+
+2019-10-29 13:26:37 - [TEST_CASE][PASSED] - Test Cases/Operations About Registers/Register/Pages/Send registration data: Test Cases/Operations About Registers/Register/Pages/Send registration data
+
+2019-10-29 13:26:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Register/RegisterAccount", ["phone":phone, "password":password, "country":country, "latlong":latlong, "device_token":device_token, "device_type":device_type])): Send request successfully
+
+2019-10-29 13:26:40 - [MESSAGE][INFO] - HAR: C:\Users\acer\Katalon Studio\PrivyID API pretest\Reports\20191029_132633\New Test Suite\20191029_132633\requests\main\0.har
+
+2019-10-29 13:26:40 - [MESSAGE][PASSED] - Send request successfully
+
+2019-10-29 13:26:40 - [TEST_STEP][PASSED] - json_string = response.getResponseText(): null
+
+2019-10-29 13:26:40 - [TEST_STEP][PASSED] - json_response_code = statusCode: null
+
+2019-10-29 13:26:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Operations About Registers/Register/Pages/Send registration data' successfully
+
+2019-10-29 13:26:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Operations About Registers/Register/Pages/Verify expected value equals with input text"), ["expected_response_code":map.get("response_code")], STOP_ON_FAILURE): Call Test Case 'Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text' successfully
+
+2019-10-29 13:26:40 - [TEST_CASE][PASSED] - Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text: Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text
+
+2019-10-29 13:26:40 - [TEST_STEP][PASSED] - switch (json_response_code): null
+
+2019-10-29 13:26:40 - [TEST_STEP][PASSED] - case 201:: null
+
+2019-10-29 13:26:40 - [TEST_STEP][PASSED] - if (verifyMatch(json_response_code.toString(), expected_response_code.toString(), false, STOP_ON_FAILURE)): null
+
+2019-10-29 13:26:40 - [MESSAGE][PASSED] - Actual text '201' and expected text '201' are matched 
+
+2019-10-29 13:26:40 - [TEST_STEP][PASSED] - Register.verifyResponseCode201(): device_type passed!
+
+2019-10-29 13:26:40 - [MESSAGE][PASSED] - Actual text '6223167132422' and expected text '6223167132422' are matched 
+
+2019-10-29 13:26:40 - [MESSAGE][INFO] - phone passed!
+
+2019-10-29 13:26:40 - [MESSAGE][PASSED] - Actual text 'indonesia' and expected text 'indonesia' are matched 
+
+2019-10-29 13:26:40 - [MESSAGE][INFO] - country passed!
+
+2019-10-29 13:26:40 - [MESSAGE][WARNING] - Unable to verify match between actual text 'null' and expected text '(-7.753315, 110.360947)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'null' and expected text '(-7.753315, 110.360947)' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:55)
+	at Register.verifyResponseCode201(Register.groovy:70)
+	at Register$verifyResponseCode201.call(Unknown Source)
+	at Verify expected value equals with input text.run(Verify expected value equals with input text:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register with new valid data.run(Register with new valid data:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572330393329.run(TempTestSuite1572330393329.groovy:36)
+)
+
+2019-10-29 13:26:40 - [MESSAGE][INFO] - latlong failed!
+
+2019-10-29 13:26:40 - [MESSAGE][PASSED] - Actual text 'redmi note 5' and expected text 'redmi note 5' are matched 
+
+2019-10-29 13:26:40 - [MESSAGE][INFO] - device_token passed!
+
+2019-10-29 13:26:40 - [MESSAGE][PASSED] - Actual text 'android' and expected text 'android' are matched 
+
+2019-10-29 13:26:40 - [MESSAGE][INFO] - device_type passed!
+
+2019-10-29 13:26:40 - [TEST_STEP][PASSED] - break: null
+
+2019-10-29 13:26:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text' successfully
+
+2019-10-29 13:26:42 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Operations About Registers/Register/Cases/Register with new valid data' .
+
+2019-10-29 13:26:42 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Operations About Registers/Register/Cases/Register with new valid data' .
+[[ATTACHMENT|C:\\Users\\acer\\Katalon Studio\\PrivyID API pretest\\Reports\\20191029_132633\\New Test Suite\\20191029_132633/videos\\test_1.avi]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-29 13:26:35 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Operations About Registers/Register/Cases/Register with new valid data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

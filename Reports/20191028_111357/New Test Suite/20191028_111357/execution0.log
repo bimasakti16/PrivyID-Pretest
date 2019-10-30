@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-28T11:14:02</date>
+  <millis>1572236042698</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/New Test Suite</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:02</date>
+  <millis>1572236042747</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = acer - LAPTOP-84C3RO11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">acer - LAPTOP-84C3RO11</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:02</date>
+  <millis>1572236042749</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:02</date>
+  <millis>1572236042750</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.99.116</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.99.116</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:02</date>
+  <millis>1572236042752</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:03</date>
+  <millis>1572236043369</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Operations About Registers/Register/Cases/Register with new valid data</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Operations About Registers/Register/Cases/Register with new valid data</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Operations About Registers/Register/Cases/Register with new valid data</property>
+  <property name="source">C:\\Users\\acer\\Katalon Studio\\PrivyID API pretest\\Test Cases\\Operations About Registers\\Register\\Cases\\Register with new valid data.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:04</date>
+  <millis>1572236044502</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : map = input_text</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045148</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : map = input_text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045149</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : map.put(\&amp;quot;phone\&amp;quot;, \&amp;quot;6223123132427\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045151</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : map.put(\&amp;quot;phone\&amp;quot;, \&amp;quot;6223123132427\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045152</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : map.put(\&amp;quot;password\&amp;quot;, \&amp;quot;bimabimabima\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045155</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : map.put(\&amp;quot;password\&amp;quot;, \&amp;quot;bimabimabima\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045155</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : map.put(\&amp;quot;country\&amp;quot;, \&amp;quot;indonesia\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045158</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : map.put(\&amp;quot;country\&amp;quot;, \&amp;quot;indonesia\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045159</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : map.put(\&amp;quot;device_token\&amp;quot;, \&amp;quot;redmi note 5\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045161</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : map.put(\&amp;quot;device_token\&amp;quot;, \&amp;quot;redmi note 5\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045162</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : map.put(\&amp;quot;latlong\&amp;quot;, \&amp;quot;(-7.753315, 110.360947)\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045165</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : map.put(\&amp;quot;latlong\&amp;quot;, \&amp;quot;(-7.753315, 110.360947)\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045166</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : map.put(\&amp;quot;device_type\&amp;quot;, 1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045168</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : map.put(\&amp;quot;device_type\&amp;quot;, 1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045168</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : map.put(\&amp;quot;response_code\&amp;quot;, 201)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045170</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : map.put(\&amp;quot;response_code\&amp;quot;, 201)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045171</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Operations About Registers/Register/Pages/Send registration data\&amp;quot;), [\&amp;quot;phone\&amp;quot;:map.get(\&amp;quot;phone\&amp;quot;), \&amp;quot;password\&amp;quot;:map.get(\&amp;quot;password\&amp;quot;), \&amp;quot;country\&amp;quot;:map.get(\&amp;quot;country\&amp;quot;), \&amp;quot;device_token\&amp;quot;:map.get(\&amp;quot;device_token\&amp;quot;), ... ], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045451</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Operations About Registers/Register/Pages/Send registration data</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Operations About Registers/Register/Pages/Send registration data</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Operations About Registers/Register/Pages/Send registration data</property>
+  <property name="source">C:\\Users\\acer\\Katalon Studio\\PrivyID API pretest\\Test Cases\\Operations About Registers\\Register\\Pages\\Send registration data.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045469</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>phone = 6223123132427</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045470</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = bimabimabima</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045471</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>country = indonesia</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045472</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>device_token = redmi note 5</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045474</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>latlong = (-7.753315, 110.360947)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045475</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>device_type = 1</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:05</date>
+  <millis>1572236045476</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>response_code = 201</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:06</date>
+  <millis>1572236046069</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;Register/RegisterAccount\&amp;quot;, [\&amp;quot;phone\&amp;quot;:phone, \&amp;quot;password\&amp;quot;:password, \&amp;quot;country\&amp;quot;:country, \&amp;quot;latlong\&amp;quot;:latlong, \&amp;quot;device_token\&amp;quot;:device_token, \&amp;quot;device_type\&amp;quot;:device_type]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048445</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\acer\\Katalon Studio\\PrivyID API pretest\\Reports\\20191028_111357\\New Test Suite\\20191028_111357\\requests\\main\\0.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">87507fba-12fd-4639-a28d-2a41f1469484</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048676</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048678</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;Register/RegisterAccount\&amp;quot;, [\&amp;quot;phone\&amp;quot;:phone, \&amp;quot;password\&amp;quot;:password, \&amp;quot;country\&amp;quot;:country, \&amp;quot;latlong\&amp;quot;:latlong, \&amp;quot;device_token\&amp;quot;:device_token, \&amp;quot;device_type\&amp;quot;:device_type]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048679</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : json_string = response.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048698</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : json_string = response.getResponseText()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048698</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : json_response_code = statusCode</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048699</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : json_response_code = statusCode</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048700</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Operations About Registers/Register/Pages/Send registration data</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048701</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Operations About Registers/Register/Pages/Send registration data</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048715</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Operations About Registers/Register/Pages/Send registration data&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048717</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;Operations About Registers/Register/Pages/Send registration data\&amp;quot;), [\&amp;quot;phone\&amp;quot;:map.get(\&amp;quot;phone\&amp;quot;), \&amp;quot;password\&amp;quot;:map.get(\&amp;quot;password\&amp;quot;), \&amp;quot;country\&amp;quot;:map.get(\&amp;quot;country\&amp;quot;), \&amp;quot;device_token\&amp;quot;:map.get(\&amp;quot;device_token\&amp;quot;), ... ], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048718</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;Operations About Registers/Register/Pages/Verify expected value equals with input text\&amp;quot;), [\&amp;quot;expected_response_code\&amp;quot;:map.get(\&amp;quot;response_code\&amp;quot;)], CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048788</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text</property>
+  <property name="source">C:\\Users\\acer\\Katalon Studio\\PrivyID API pretest\\Test Cases\\Operations About Registers\\Register\\Pages\\Verify expected value equals with input text.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:08</date>
+  <millis>1572236048805</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>expected_response_code = 201</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049473</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switch (json_response_code)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049478</millis>
+  <sequence>56</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : case 422:</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049481</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : break</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049482</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : break</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049486</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : case 422:</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049487</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switch (json_response_code)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049487</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049488</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049489</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Operations About Registers/Register/Pages/Verify expected value equals with input text&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049489</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;Operations About Registers/Register/Pages/Verify expected value equals with input text\&amp;quot;), [\&amp;quot;expected_response_code\&amp;quot;:map.get(\&amp;quot;response_code\&amp;quot;)], CONTINUE_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049490</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Operations About Registers/Register/Cases/Register with new valid data</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049491</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Operations About Registers/Register/Cases/Register with new valid data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-28T11:14:09</date>
+  <millis>1572236049655</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

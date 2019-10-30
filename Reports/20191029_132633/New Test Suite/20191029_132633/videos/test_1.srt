@@ -1,0 +1,68 @@
+1
+00:00:00,555 --> 00:00:00,561
+1. map = input_text
+
+2
+00:00:00,906 --> 00:00:00,909
+5. map.put("phone", "6223167132422")
+
+3
+00:00:00,930 --> 00:00:00,933
+9. map.put("password", "bimabimabima")
+
+4
+00:00:00,942 --> 00:00:00,944
+13. map.put("country", "indonesia")
+
+5
+00:00:00,951 --> 00:00:00,954
+17. map.put("latlong", "(-7.753315, 110.360947)")
+
+6
+00:00:00,965 --> 00:00:00,967
+21. map.put("device_token", "redmi note 5")
+
+7
+00:00:00,978 --> 00:00:00,980
+25. map.put("device_type", 1)
+
+8
+00:00:00,988 --> 00:00:00,990
+29. map.put("response_code", 201)
+
+9
+00:00:01,001 --> 00:00:01,003
+33. callTestCase(findTestCase("Operations About Registers/Register/Pages/Send registration data"), ["phone":map.get("phone"), "password":map.get("password"), "country":map.get("country"), "device_token":map.get("device_token"), ... ], STOP_ON_FAILURE)
+
+10
+00:00:01,701 --> 00:00:01,703
+1. response = sendRequest(findTestObject("Register/RegisterAccount", ["phone":phone, "password":password, "country":country, "latlong":latlong, "device_token":device_token, "device_type":device_type]))
+
+11
+00:00:03,987 --> 00:00:03,988
+5. json_string = response.getResponseText()
+
+12
+00:00:04,003 --> 00:00:04,004
+9. json_response_code = statusCode
+
+13
+00:00:04,016 --> 00:00:04,017
+37. callTestCase(findTestCase("Operations About Registers/Register/Pages/Verify expected value equals with input text"), ["expected_response_code":map.get("response_code")], STOP_ON_FAILURE)
+
+14
+00:00:04,334 --> 00:00:04,335
+1. switch (json_response_code)
+
+15
+00:00:04,343 --> 00:00:04,344
+2. if (verifyMatch(json_response_code.toString(), expected_response_code.toString(), false, STOP_ON_FAILURE))
+
+16
+00:00:04,362 --> 00:00:04,363
+1. Register.verifyResponseCode201()
+
+17
+00:00:04,458 --> 00:00:04,460
+6. break
+

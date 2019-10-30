@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send registration data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db51d45e-8cf0-4d83-8f3d-6abbabb8cb1f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>992c0d41-1db5-4202-a47d-63ad83fb83f9</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26ecbcf6-2181-4312-aa12-97ad197d74d3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9966c775-e70a-4447-9fab-d710f3cf2bbc</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01b251de-3dcc-40bc-8ae6-9e731c282928</id>
+      <masked>false</masked>
+      <name>device_token</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28067419-6028-4ac0-a54e-8f2a39be473e</id>
+      <masked>false</masked>
+      <name>latlong</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>b754c885-bbf2-47f4-9690-32438837fc93</id>
+      <masked>false</masked>
+      <name>device_type</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>42ff4de0-bfa0-4324-be54-b68ea4e238e3</id>
+      <masked>false</masked>
+      <name>response_code</name>
+   </variable>
+</TestCaseEntity>
